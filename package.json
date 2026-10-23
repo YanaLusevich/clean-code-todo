@@ -2,7 +2,8 @@
   "scripts": {
     "prepare": "husky",
     "lint": "eslint .",
-    "format:check": "prettier index.html style.css app.js eslint.config.mjs package.json --check"
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
   },
   "lint-staged": {
     "*.js": [
